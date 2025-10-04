@@ -77,7 +77,7 @@ export default function DashboardNavBar1({
   className = "",
   searchProps = {
     value: "",
-    placeholder: "Search Anything",
+    placeholder: "Pesquisar...",
     onChange: () => {},
   },
   buttonData,
@@ -95,7 +95,7 @@ export default function DashboardNavBar1({
 
   const mergedButtonData = {
     ...{
-      text: "Add New",
+      text: "Novo Usuario",
       icon: IoAdd,
       onClickedBtn: () => {},
       className: "",
