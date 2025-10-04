@@ -11,7 +11,7 @@ export const statisticsCardData: SingleCard4[] = [
     },
     value: { text: "200", className: "text-3xl text-white" },
     icon: <FaUsers />,
-    colors: { bgColor: "bg-[#51A8DB]", iconColor: "text-white" },
+    colors: { bgColor: "bg-[#4097CC]", iconColor: "text-white" },
     metricDelta: "+5%",
     positiveMetric: true,
     className: "bg-gradient-to-r from-[#51A8DB] to-[#1E6FA1] shadow-none",
@@ -27,7 +27,7 @@ export const statisticsCardData: SingleCard4[] = [
     },
     value: { text: "2", className: "text-3xl" },
     icon: <FaUserShield />,
-    colors: { bgColor: "bg-[#51A8DB]", iconColor: "text-neutral-600" },
+    colors: { bgColor: "bg-[#4097CC]", iconColor: "text-white" },
     metricDelta: "20%",
     positiveMetric: true,
     bottomArea: {
@@ -40,7 +40,7 @@ export const statisticsCardData: SingleCard4[] = [
     description: { text: "Usuarios com acesso de secretária" },
     value: { text: "3", className: "text-3xl" },
     icon: <FaUserEdit />,
-    colors: { bgColor: "bg-[#51A8DB]", iconColor: "text-neutral-600" },
+    colors: { bgColor: "bg-[#4097CC]", iconColor: "text-white" },
     metricDelta: "10%",
     positiveMetric: true,
     bottomArea: {
