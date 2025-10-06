@@ -7,7 +7,7 @@ export const statisticsCardData: SingleCard4[] = [
     title: { text: "Total de Usuarios", className: "text-xl text-white" },
     description: {
       text: "Todos os usuarios registrados",
-      className: "text-white",
+      className: "text-grey-200",
     },
     value: { text: "200", className: "text-3xl text-white" },
     icon: <FaUsers />,
@@ -21,7 +21,7 @@ export const statisticsCardData: SingleCard4[] = [
     },
   },
   {
-    title: { text: "Administradores", className: "text-xl text-white" },
+    title: { text: "Administradores", className: "text-xl" },
     description: {
       text: "Usuarios com acesso administrativo",
     },
@@ -36,7 +36,7 @@ export const statisticsCardData: SingleCard4[] = [
     },
   },
   {
-    title: { text: "Secretárias", className: "text-xl text-white" },
+    title: { text: "Secretárias", className: "text-xl " },
     description: { text: "Usuarios com acesso de secretária" },
     value: { text: "3", className: "text-3xl" },
     icon: <FaUserEdit />,
